@@ -1,0 +1,9 @@
+/* Reset some App-specific styles since we rely on index.css and component css */
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100%;
+}
