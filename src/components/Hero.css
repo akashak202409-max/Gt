@@ -204,4 +204,8 @@
   .btn-lg {
     width: 100%;
   }
+
+  .form-row-hero {
+    flex-direction: column;
+  }
 }
