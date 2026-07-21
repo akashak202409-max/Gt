@@ -17,7 +17,7 @@ const Contact = () => {
     }
     
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/916381455272?text=${encodedMessage}`, '_blank');
+    window.location.href = `https://wa.me/916381455272?text=${encodedMessage}`;
   };
 
   return (

@@ -12,7 +12,7 @@ const Hero = () => {
     
     const message = `*New Booking Enquiry*\n\nName: ${name}\nPhone: ${phone}\nPickup Location: ${location}\nDate: ${date}\nVehicle Type: ${vehicle}`;
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/916381455272?text=${encodedMessage}`, '_blank');
+    window.location.href = `https://wa.me/916381455272?text=${encodedMessage}`;
   };
 
   return (
@@ -27,26 +27,25 @@ const Hero = () => {
           </div>
           
           <h1 className="hero-title">
-            Your Ultimate Travel <br/>
-            <span className="text-accent">Partner Across India</span>
+            Your Trusted <br/>
+            <span className="text-accent">T Board Taxi Service</span>
           </h1>
           
           <p className="hero-description" style={{ marginBottom: '16px' }}>
-            Premium self-drive and chauffeur-driven cars available for local trips, 
-            outstation travel, airport transfers, and complete hotel booking solutions.
+            We provide professional T Board tourist taxi services for local trips, outstation travel, airport transfers, corporate travel, temple tours, and family vacations. Travel safely and comfortably with experienced drivers.
           </p>
 
           <div className="hero-highlights" style={{ marginBottom: '40px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <CheckCircle2 size={18} className="text-success" />
               <span style={{ fontSize: '15px', fontWeight: '500', color: 'rgba(255, 255, 255, 0.9)' }}>
-                Cars Travels – All over India with include for days and hotel booking
+                Chauffeur-Driven Tourist Taxi Services Across Tamil Nadu
               </span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
               <ShieldCheck size={18} className="text-accent" />
               <span style={{ fontSize: '15px', fontWeight: '500', color: 'rgba(255, 255, 255, 0.9)' }}>
-                Certification: MSME Certification
+                Government Registered Tourist Vehicles & Professional Drivers
               </span>
             </div>
           </div>
