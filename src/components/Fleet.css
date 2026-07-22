@@ -57,11 +57,11 @@
 }
 
 .car-suv {
-  transform: scale(1.7);
+  transform: scale(1.8);
 }
 
 .car-sedan {
-  transform: scale(1.3);
+  transform: scale(1.8);
 }
 
 
@@ -235,11 +235,11 @@
   }
   
   .car-suv {
-    transform: scale(1.6);
+    transform: scale(1.8);
   }
   
   .car-sedan {
-    transform: scale(1.25);
+    transform: scale(1.8);
   }
   
 

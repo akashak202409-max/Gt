@@ -5,7 +5,7 @@ const fleetData = [
   {
     id: 1,
     name: 'Premium SUV',
-    image: '/assets/suv_cab.png',
+    image: '/assets/Suv1.png',
     type: 'SUV',
     fuel: 'Diesel / Petrol',
     seats: '6+1',
@@ -23,7 +23,7 @@ const fleetData = [
   {
     id: 2,
     name: 'Luxury Sedan',
-    image: '/assets/sedan_cab.avif',
+    image: '/assets/Sedan1.png',
     type: 'Sedan',
     fuel: 'Petrol',
     seats: '4+1',
@@ -68,17 +68,7 @@ const Fleet = () => {
               <div className="fleet-row-content">
                 <h3 className="fleet-name-new">{car.name}</h3>
                 
-                <div className="fleet-specs-new">
-                  <div className="spec-pill">
-                    <Users size={16} /> {car.seats} Seats
-                  </div>
-                  <div className="spec-pill">
-                    <Fuel size={16} /> {car.fuel}
-                  </div>
-                  <div className="spec-pill">
-                    <Snowflake size={16} /> AC: {car.ac}
-                  </div>
-                </div>
+
 
                 <div className="fleet-pricing-box">
                   <ul className="plan-features-new">

@@ -32,7 +32,7 @@ const Hero = () => {
           </h1>
           
           <p className="hero-description" style={{ marginBottom: '16px' }}>
-            We provide professional T Board tourist taxi services for local trips, outstation travel, airport transfers, corporate travel, temple tours, and family vacations. Travel safely and comfortably with experienced drivers.
+            We provide professional T Board tourist taxi services for local trips, outstation travel, airport pick-up and drop, corporate pick-up and drop, temple tours, and family vacations. Travel safely and comfortably with our experienced and professional drivers.
           </p>
 
           <div className="hero-highlights" style={{ marginBottom: '40px', display: 'flex', flexDirection: 'column', gap: '12px' }}>

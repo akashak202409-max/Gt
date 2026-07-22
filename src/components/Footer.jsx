@@ -37,16 +37,7 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div className="footer-col">
-            <h4 className="footer-heading">Our Services</h4>
-            <ul className="footer-links">
-              <li><a href="#">Airport Transfers</a></li>
-              <li><a href="#">Local City Rides</a></li>
-              <li><a href="#">Outstation Trips</a></li>
-              <li><a href="#">Corporate Travel</a></li>
-              <li><a href="#">Self Drive Rentals</a></li>
-            </ul>
-          </div>
+
           
           <div className="footer-col">
             <h4 className="footer-heading">Contact Info</h4>
